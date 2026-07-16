@@ -1,0 +1,4 @@
+>>> print("Payment UUID:", payment.pk)
+Payment UUID: 01f82084-20dc-498a-b004-2694d51be433
+>>> print("Payment URL:", payment.get_absolute_url())
+Payment URL: /en-us/payment/01f82084-20dc-498a-b004-2694d51be433/
