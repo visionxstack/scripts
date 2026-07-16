@@ -20,7 +20,7 @@ customer.users.add(user)
 payment = Payment.objects.create(
     customer=customer,
     amount=100,
-    description="Fresh IDOR evidence payment",
+    description="IDOR evidence payment",
     backend="pay",
 )
 
